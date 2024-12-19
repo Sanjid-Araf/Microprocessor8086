@@ -8,8 +8,7 @@ newline db 0Dh, 0Ah, '$'
  
 MAIN PROC
     
-    mov ax, @DATA
-    mov ds, ax
+
 
     lea si, string 
     mov cx, 0
